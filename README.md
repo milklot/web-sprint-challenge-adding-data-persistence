@@ -113,6 +113,19 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain the difference between Relational Databases and SQL.
+  An RDBMS is a Relational Database Management System. It is the database software itself, which manages storage, querying, updating, and, well, everything. Specifically, an RDBMS uses a relational model of data
+
+SQL, the Structured Query Language, is a language (or a family of closely related languages or dialects) which is typically used to query the RDBMS.
+
+So, the RDBMS is the system, and SQL is the language used to interact with the system.
+
 2. Why do tables need a Primary Key?
+
+Because we need unique value(pk) for each table for reference purpose.
+
 3. What is the name given to a table column that references the Primary Key on another table?
+  Foreign key
+
 4. What do we need in order to have a _many to many_ relationship between two tables?
+
+  junction table which will connect our relationships
